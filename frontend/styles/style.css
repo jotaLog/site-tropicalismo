@@ -169,7 +169,6 @@
     max-width: 100%;
 }
 
-
 .container-inauguration-architect {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -265,26 +264,12 @@
     padding: 42px;
     overflow: hidden;
     border-radius: 5px;
-    background-color: var(--branco);
-    box-shadow: 0 8px 24px rgba(32, 40, 32, 0.05);
 }
 
 .txt-container-architecture {
     position: relative;
     z-index: 1;
     max-width: 850px;
-}
-
-.container-architecture::after {
-    position: absolute;
-    right: -50px;
-    bottom: -80px;
-    width: 200px;
-    height: 200px;
-    border: 25px solid #f5d85e;
-    border-radius: 20%;
-    opacity: 0.35;
-    content: "";
 }
 
 .container-currentUse-palacio {
